@@ -31,8 +31,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Materialise service account JSON
+        env:
+          SA_B64: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON_B64 }}
         run: |
-          printf '%s' "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" > service-account.json
+          printf '%s' "$SA_B64" | base64 -d > service-account.json
+          # Sanity check it's valid JSON without printing contents.
+          python -c "import json; json.load(open('service-account.json'))"
 
       - name: Run capacity refresh
         env:
