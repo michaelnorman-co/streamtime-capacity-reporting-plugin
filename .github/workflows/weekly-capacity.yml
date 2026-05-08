@@ -1,0 +1,55 @@
+name: Weekly capacity refresh
+
+on:
+  schedule:
+    # Mondays at 08:00 UK time. Cron is in UTC; this is 07:00 UTC during BST,
+    # 08:00 UTC during GMT — close enough for a "before the Monday finance meeting" run.
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      months:
+        description: "Number of months to write (current + N-1)"
+        default: "3"
+        required: false
+      start:
+        description: "Start month (YYYY-MM). Leave blank for current month."
+        required: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Materialise service account JSON
+        run: |
+          printf '%s' "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" > service-account.json
+
+      - name: Run capacity refresh
+        env:
+          STREAMTIME_API_TOKEN: ${{ secrets.STREAMTIME_API_TOKEN }}
+          STREAMTIME_BASE_URL: https://api.streamtime.net/v2
+          GOOGLE_SHEET_ID: ${{ vars.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_TAB: ${{ vars.GOOGLE_SHEET_TAB }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ./service-account.json
+          HOURS_PER_DAY: "7.5"
+          FULL_DAY_MAX_BOOKED_HOURS: "2.0"
+          HALF_DAY_MAX_BOOKED_HOURS: "4.0"
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.start }}" ]; then ARGS="$ARGS --start ${{ inputs.start }}"; fi
+          if [ -n "${{ inputs.months }}" ]; then ARGS="$ARGS --months ${{ inputs.months }}"; fi
+          python -m src.main $ARGS
+
+      - name: Clean up service account
+        if: always()
+        run: rm -f service-account.json

@@ -1,0 +1,12 @@
+.env
+.env.local
+*.pyc
+__pycache__/
+.venv/
+venv/
+.DS_Store
+service-account.json
+credentials.json
+*.log
+debug/
+
