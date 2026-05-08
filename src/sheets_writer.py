@@ -43,9 +43,10 @@ COL_NOTES = "D"
 COL_WHO = "F"
 COL_DATE_HEADER = "B"
 
-# Block layout: 1 header row + 1 sub-header + 1 LEADS + 6 dept rows = 9 rows.
+# Block layout: 1 header row (month name) + 1 sub-header (date|DAYS|NOTES|WHO) +
+# 1 blank spacer + 1 LEADS + 6 dept rows = 10 rows.
 # We add 2 trailing blank rows for visual spacing between blocks.
-ROWS_PER_BLOCK = 9
+ROWS_PER_BLOCK = 10
 BLOCK_GAP = 2
 
 # Order of dept rows in a block, including LEADS (which we leave blank — Jess writes notes by hand).
@@ -176,7 +177,8 @@ def _build_block_updates(
             }
         )
 
-    for offset, label in enumerate(ALL_BLOCK_ROWS, start=2):
+    # offset 0 = month-header row, +1 = sub-header, +2 = blank spacer, +3..+9 = dept rows.
+    for offset, label in enumerate(ALL_BLOCK_ROWS, start=3):
         row = block_start_row + offset
         if write_header:
             updates.append(
