@@ -75,6 +75,26 @@ Set these in the repo's **Settings → Secrets and variables → Actions**:
 
 Anyone with repo access can run it on demand: **Actions → Weekly capacity refresh → Run workflow** — optionally override the start month or `months` parameter.
 
+## Refresh button inside the Google Sheet
+
+Apps Script adds a `Capacity → Refresh from StreamTime` menu item to the sheet itself. Clicking it triggers the same GitHub workflow on demand — typical use is "I need an updated count between weekly cron runs". See `apps_script/Code.gs` for the source.
+
+### One-time setup
+
+1. **Generate a fine-grained PAT** (under the `ragged-edge-design` GitHub account):
+   - https://github.com/settings/personal-access-tokens/new
+   - **Resource owner:** `ragged-edge-design`
+   - **Repository access:** Only this repo (`streamtime-capacity-reporting-plugin`)
+   - **Permissions:** Repository permissions → **Actions: Read and write**. Nothing else.
+   - **Expiration:** 1 year (set a calendar reminder to rotate)
+   - Copy the token (starts `github_pat_…`).
+2. **In the Google Sheet:** `Extensions → Apps Script`. Paste the contents of `apps_script/Code.gs` into `Code.gs`. Save.
+3. **In Apps Script:** `Project Settings (⚙️) → Script properties → Add script property`:
+   - Name: `GITHUB_TOKEN`
+   - Value: the PAT from step 1
+4. Reload the sheet. A new `Capacity` menu appears in the top bar.
+5. (Optional) `Insert → Drawing → "Refresh capacity"` → save → click the drawing → ⋮ → `Assign script` → `refreshCapacity`. Now Jess has a clickable shape inside the sheet itself.
+
 ## Files
 
 - `src/streamtime_client.py` — minimal v2 API client (users + logged-time search)
