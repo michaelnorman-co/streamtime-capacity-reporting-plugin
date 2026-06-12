@@ -5,7 +5,7 @@ Only the routes we need: list users, search logged-time records by month.
 from __future__ import annotations
 
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any, Iterable
 
 import requests
@@ -32,6 +32,7 @@ class StreamTimeClient:
     token: str
     base_url: str = "https://api.streamtime.net/v2"
     timeout: float = 30.0
+    _job_cache: dict[int, dict] = field(default_factory=dict, repr=False)
 
     def _headers(self) -> dict[str, str]:
         return {
@@ -114,7 +115,47 @@ class StreamTimeClient:
                 }
             )
 
-        return list(self._paginate_search(filter_groups, additional_data="job"))
+        # NOTE: the API used to populate each record's `job` object via
+        # `additional_data=job`, but that param now makes /search return a 500
+        # (server-side regression, ~May 2026). We fetch records without it and
+        # join job details ourselves via GET /jobs/{id}, keyed on loggedTime.jobId.
+        records = list(self._paginate_search(filter_groups))
+        self._attach_jobs(records)
+        return records
+
+    # --- Jobs ----------------------------------------------------------------
+
+    def get_job(self, job_id: int) -> dict | None:
+        """Fetch a single job (cached). Returns None if it can't be retrieved."""
+        if job_id in self._job_cache:
+            return self._job_cache[job_id]
+        try:
+            job = self._get(f"/jobs/{job_id}")
+        except requests.HTTPError:
+            job = None
+        self._job_cache[job_id] = job
+        return job
+
+    def _attach_jobs(self, records: list[dict]) -> None:
+        """Populate each record's `job` field (which search no longer fills in).
+
+        Capacity logic reads record["job"]["name"/"fullName"] to detect pencil
+        and non-booking bookings, so this join keeps that behaviour intact.
+        """
+        job_ids = {
+            r["loggedTime"]["jobId"]
+            for r in records
+            if r.get("loggedTime") and r["loggedTime"].get("jobId")
+        }
+        for jid in job_ids:
+            if jid not in self._job_cache:
+                self.get_job(jid)
+                time.sleep(0.2)  # polite pause on real network fetches only
+        for r in records:
+            lt = r.get("loggedTime") or {}
+            jid = lt.get("jobId")
+            if jid:
+                r["job"] = self._job_cache.get(jid)
 
     def _paginate_search(
         self, filter_groups: list[dict], additional_data: str | None = None
