@@ -2,7 +2,7 @@
 
 Each month block looks like:
 
-    APRIL                                          ← month header (col B)
+    APRIL 2026                                     ← month header (col B), year is required
     27/4/26   DAYS    NOTES        WHO             ← sub-header (cols B,C,D,F)
     LEADS     0       ...          ...
     DESIGN    22.0                 Lucy - 2 / ...
@@ -59,8 +59,25 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 class MonthBlock:
     name: str
     month: int
+    year: int | None                 # None when the header carries no year, e.g. bare "SEPTEMBER"
     header_row: int                  # 1-indexed
     department_rows: dict[str, int]  # dept label → row
+
+
+def parse_month_header(val: str) -> tuple[int, int | None] | None:
+    """'AUGUST 2025' → (8, 2025); 'SEPTEMBER' → (9, None); anything else → None."""
+    parts = [p.strip(",") for p in val.split()]
+    if not parts:
+        return None
+    month = MONTH_NAMES.get(parts[0])
+    if month is None:
+        return None
+    year = None
+    if len(parts) > 1:
+        token = parts[1].strip(",")
+        if token.isdigit() and len(token) == 4:
+            year = int(token)
+    return month, year
 
 
 def _service(service_account_path: str):
@@ -86,19 +103,17 @@ def find_month_blocks(svc, sheet_id: str, tab: str) -> list[MonthBlock]:
     col_b = _read_column_b(svc, sheet_id, tab)
     blocks: list[MonthBlock] = []
     for idx, val in enumerate(col_b):
-        # Strip any year/suffix so "MAY 2026" still matches.
-        first_word = val.split()[0] if val else ""
-        if first_word in MONTH_NAMES:
-            month_num = MONTH_NAMES[first_word]
+        parsed = parse_month_header(val)
+        if parsed is not None:
+            month_num, year = parsed
             dept_rows: dict[str, int] = {}
             for j in range(idx + 1, min(idx + 13, len(col_b))):
-                nb_first = col_b[j].split()[0] if col_b[j] else ""
-                if nb_first in MONTH_NAMES:
+                if parse_month_header(col_b[j]) is not None:
                     break
                 if col_b[j] in DEPARTMENT_ROWS:
                     dept_rows[col_b[j]] = j + 1
             blocks.append(
-                MonthBlock(first_word, month_num, idx + 1, dept_rows)
+                MonthBlock(val.split()[0], month_num, year, idx + 1, dept_rows)
             )
     return blocks
 
@@ -142,7 +157,7 @@ def format_who_breakdown(people: list[PersonAvailability]) -> str:
 def _build_block_updates(
     tab: str,
     block_start_row: int,
-    month_name: str,
+    header_label: str,
     snapshot_label: str,
     people_by_dept: dict[str, list[PersonAvailability]],
     write_header: bool,
@@ -154,7 +169,7 @@ def _build_block_updates(
 
     if write_header:
         updates.append(
-            {"range": f"'{tab}'!{COL_LABEL}{header_row}", "values": [[month_name]]}
+            {"range": f"'{tab}'!{COL_LABEL}{header_row}", "values": [[header_label]]}
         )
         # Sub-header: snapshot date, DAYS, NOTES, WHO (E is left blank).
         updates.append(
@@ -209,7 +224,14 @@ def write_capacity(
 ) -> dict[str, int]:
     """For each target month: update an existing block, or append a fresh block at the bottom."""
     svc = _service(service_account_path)
-    existing = {b.month: b for b in find_month_blocks(svc, sheet_id, tab)}
+    # Only blocks with an explicit year in the header are matchable. A bare "SEPTEMBER"
+    # could be any year, and guessing wrong silently overwrites a previous year's figures —
+    # so we leave those alone and append a fresh, dated block instead.
+    existing = {
+        (b.year, b.month): b
+        for b in find_month_blocks(svc, sheet_id, tab)
+        if b.year is not None
+    }
     snapshot_label = (snapshot_date or date.today()).strftime("%-d/%-m/%y")
 
     updates: list[dict] = []
@@ -227,15 +249,15 @@ def write_capacity(
         by_dept: dict[str, list[PersonAvailability]] = {}
         for p in people:
             by_dept.setdefault(p.department or "", []).append(p)
-        month_name = NUM_TO_MONTH[month]
+        header_label = f"{NUM_TO_MONTH[month]} {year}"
 
-        if month in existing:
-            block = existing[month]
+        if (year, month) in existing:
+            block = existing[(year, month)]
             updates.extend(
                 _build_block_updates(
                     tab,
                     block_start_row=block.header_row,
-                    month_name=month_name,
+                    header_label=header_label,
                     snapshot_label=snapshot_label,
                     people_by_dept=by_dept,
                     write_header=False,
@@ -247,7 +269,7 @@ def write_capacity(
                 _build_block_updates(
                     tab,
                     block_start_row=next_append_row,
-                    month_name=month_name,
+                    header_label=header_label,
                     snapshot_label=snapshot_label,
                     people_by_dept=by_dept,
                     write_header=True,
