@@ -1,104 +1,85 @@
-# StreamTime Capacity Reporting
+# Streamtime Capacity Reporting
 
-Replaces the manual weekly count of available days per person in the studio capacity tracker. Pulls scheduled time from the StreamTime public API, computes available days per person and per department for each month in the spreadsheet, and writes the results into the existing Google Sheet — leaving Jess's notes/comments untouched.
+A **Live Capacity** tab in the capacity Google Sheet showing free days per person and department for the **current month plus the next two**, pulled from Streamtime. It's laid out like the original tracker (one block per month: DAYS, NOTES, WHO), so it can be pasted straight into the finance report.
+
+It runs entirely inside the Google Sheet as Apps Script (`apps_script/Code.gs`): it refreshes itself every morning, and anyone can use **Capacity → Refresh now**. It doesn't use GitHub Actions, a service account or a GitHub token, and nobody gets failure emails. If a refresh fails, the previous figures stay in place and a red status line at the top of the tab says what went wrong.
+
+> The earlier versions — the Monday GitHub Action here, and the Capacity Radar in `re-context-layer` (2-week horizon) — are retired for this use. The Python in `src/` is kept as the reference model and a local dry-run tool.
 
 ## How "available" is defined
 
-For each working day in the month (per the user's contracted weekday hours in StreamTime):
+For each contracted working day (from the person's weekday hours in Streamtime):
 
-- Sum the user's scheduled time entries for that day.
-- A day counts as **available** if non-pencil scheduled time is ≤ 3.75 hours (half of a 7.5-hour day).
-- If a pencil booking exists on an otherwise-available day, the day still counts as available, but is also tagged in the `WHO` breakdown as `(1✏)`.
-- Distribution hint (`block` / `mixed` / `scattered`) is added when a person has multiple available days, so Jess can see at a glance whether the time comes in a chunk or is broken up.
+- Confirmed booked time **≤ 2h → 1 day free**, **≤ 4h → ½ day free**, more → 0.
+- **Pencils** (scheduleNotes containing ✏ or the word `PENCIL`) don't count as booked. The day still counts as free and is flagged in WHO, e.g. `Dom - 6 (2✏ Nike)`.
+- **Presentation days** (scheduleNotes starting `p. `) are fully busy, however many hours are booked.
+- **Holidays / leave** (job names in `NON_BOOKING_JOB_NAME_HINTS`) are neither free nor booked.
+- `START DATE` / `END DATE` markers in scheduleNotes limit someone to their active window.
+- Lead roles are skipped: the **LEADS** row is filled in by hand.
 
-A "pencil" is detected by matching the linked job name against `PENCIL_JOB_NAME_HINTS` in `src/config.py` (default: `pencil`, `creative admin`, `personal`). StreamTime doesn't expose a native pencil flag through the API, so this list will need tuning once we see real data.
+### Block / mixed / scattered
 
-## Setup
+Shown after anyone with more than one free day, and explained in the key at the top of the tab:
+
+| Label         | Meaning                                    | Example                        |
+| ------------- | ------------------------------------------ | ------------------------------ |
+| **block**     | every free day is back-to-back             | a clear 2-week run             |
+| **mixed**     | some free days back-to-back, some apart    | Mon–Tue free, then Thu         |
+| **scattered** | no two free days are back-to-back          | odd single or half days        |
+
+Half days count as 0.5 in DAYS, but the label only looks at *which* days are free.
+
+## Google Sheet setup (one time)
+
+1. Open the capacity sheet → **Extensions → Apps Script**.
+2. Replace the contents of `Code.gs` with [`apps_script/Code.gs`](apps_script/Code.gs).
+3. **Project Settings (⚙️)** → tick *Show "appsscript.json" manifest file in editor*. Then replace that file with [`apps_script/appsscript.json`](apps_script/appsscript.json). This sets the time zone to Europe/London.
+4. **Project Settings → Script properties → Add script property**:
+   - `STREAMTIME_API_TOKEN`: Streamtime → Settings → Integrations → API
+   - optional `SHEET_TAB`: tab to write to (default `Live Capacity`, created if missing)
+   - optional `MONTHS`: how many months to show (default `3`)
+5. Reload the sheet. Run **Capacity → Refresh now** and approve the permissions prompt.
+6. Run **Capacity → Turn on daily auto-refresh** (about 7am daily). The trigger runs as whoever turns it on, so that should be someone who'll keep their account.
+
+### What a refresh does
+
+1. Fetches users and scheduled/logged time for the shown months, plus 3 months beyond them (only to find future START/END DATE markers). It retries Streamtime on rate limits and server errors.
+2. Only once every fetch has succeeded, rewrites the tab. Anything typed by hand carries over to the same month: the **NOTES** column and the whole **LEADS** row.
+3. Months drop off as time moves on. There is no history: the tab always shows what's in Streamtime now.
+
+## Changing the rules
+
+Department mapping, pencil/holiday hints and thresholds live at the top of `apps_script/Code.gs`, mirroring `src/config.py`. If you change a rule, change it in both places, then check they still agree:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-# edit .env — paste your StreamTime token + sheet ID
+node --test apps_script/test/parity.test.js
 ```
 
-### Google Sheets credentials
-
-1. Create a Google Cloud project (or reuse one).
-2. Enable **Google Sheets API**.
-3. Create a service account, generate a JSON key, save it as `service-account.json` in this directory (already in `.gitignore`).
-4. **Share the target sheet with the service account's email** (Editor access).
-
-## Run
+The test runs the Python model and the Apps Script over the same data and compares every person and every WHO cell. By default it uses the anonymised fixtures in `apps_script/test/fixtures/`. To use real cached data instead (local only, as `debug/` is gitignored):
 
 ```bash
-# Dry run — prints summary, doesn't touch the sheet:
-python -m src.main --dry-run --months 3
-
-# Write to the sheet (current month + next 2):
-python -m src.main --months 3
-
-# Specific start:
-python -m src.main --start 2026-05 --months 3
-
-# Cache raw API responses for debugging:
-python -m src.main --dry-run --cache-dir ./debug
+.venv/bin/python -m src.main --dry-run --cache-dir debug
 ```
 
-## Departments
-
-The sheet has these dept rows (the script writes to all of them; `LEADS` is left alone):
-
-```
-DESIGN, COPY, STRATEGY, DIGITAL, 3D / CT / MOTION, ARTWORK
+```bash
+CAPACITY_DATA=debug node --test apps_script/test/parity.test.js
 ```
 
-Department mapping is rule-based — see `DEPARTMENT_RULES` in `src/config.py`. Each StreamTime user is matched against their role/jobTitle/labels; first matching substring wins. Use `PERSON_DEPARTMENT_OVERRIDES` to pin a specific person (by email or displayName) to a department.
+## Python reference tool
 
-## Automated weekly run (GitHub Actions)
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+```
 
-The repo runs itself every **Monday at 08:00 UK time** via `.github/workflows/weekly-capacity.yml`. Jess does nothing — opens the sheet at the finance meeting and the data's fresh.
+```bash
+.venv/bin/python -m src.main --dry-run --months 3
+```
 
-### Required GitHub config
-
-Set these in the repo's **Settings → Secrets and variables → Actions**:
-
-| Type     | Name                          | Value                                                              |
-| -------- | ----------------------------- | ------------------------------------------------------------------ |
-| Secret   | `STREAMTIME_API_TOKEN`        | The token from Settings → Integrations → API                       |
-| Secret   | `GOOGLE_SERVICE_ACCOUNT_JSON` | The full JSON contents of the service-account file (single line OK)|
-| Variable | `GOOGLE_SHEET_ID`             | `1r43tKhSVuQQI3ZKps0gEx_ro_Ibdc2Px7Kq8Totlssc` (or new sheet)      |
-| Variable | `GOOGLE_SHEET_TAB`            | `FY26 Capacity`                                                    |
-
-### Manual trigger
-
-Anyone with repo access can run it on demand: **Actions → Weekly capacity refresh → Run workflow** — optionally override the start month or `months` parameter.
-
-## Refresh button inside the Google Sheet
-
-Apps Script adds a `Capacity → Refresh from StreamTime` menu item to the sheet itself. Clicking it triggers the same GitHub workflow on demand — typical use is "I need an updated count between weekly cron runs". See `apps_script/Code.gs` for the source.
-
-### One-time setup
-
-1. **Generate a fine-grained PAT** (under the `ragged-edge-design` GitHub account):
-   - https://github.com/settings/personal-access-tokens/new
-   - **Resource owner:** `ragged-edge-design`
-   - **Repository access:** Only this repo (`streamtime-capacity-reporting-plugin`)
-   - **Permissions:** Repository permissions → **Actions: Read and write**. Nothing else.
-   - **Expiration:** 1 year (set a calendar reminder to rotate)
-   - Copy the token (starts `github_pat_…`).
-2. **In the Google Sheet:** `Extensions → Apps Script`. Paste the contents of `apps_script/Code.gs` into `Code.gs`. Save.
-3. **In Apps Script:** `Project Settings (⚙️) → Script properties → Add script property`:
-   - Name: `GITHUB_TOKEN`
-   - Value: the PAT from step 1
-4. Reload the sheet. A new `Capacity` menu appears in the top bar.
-5. (Optional) `Insert → Drawing → "Refresh capacity"` → save → click the drawing → ⋮ → `Assign script` → `refreshCapacity`. Now Jess has a clickable shape inside the sheet itself.
+It needs `STREAMTIME_API_TOKEN` in `.env` (see `.env.example`). Writing to the sheet from Python (without `--dry-run`) still works through a service account, but isn't needed any more.
 
 ## Files
 
-- `src/streamtime_client.py` — minimal v2 API client (users + logged-time search)
-- `src/capacity.py` — per-day availability calculator, pencil detection, distribution hint
-- `src/sheets_writer.py` — finds month blocks in the sheet, writes `DAYS` + `WHO`
-- `src/config.py` — env config + department rules
-- `src/main.py` — CLI entry point
+- `apps_script/Code.gs`: the live tool: Streamtime client, capacity rules, sheet output, menu and trigger
+- `apps_script/appsscript.json`: Apps Script manifest (time zone, permissions)
+- `apps_script/test/`: parity test against the Python model, plus anonymised fixtures
+- `src/`: Python reference model (`capacity.py`, `config.py`) and CLI (`main.py`)

@@ -1,0 +1,3633 @@
+[
+  {
+    "id": 72187,
+    "email": "user72187@example.com",
+    "displayName": "Person 72187",
+    "firstName": "P72187",
+    "role": {
+      "name": "Agency Principle"
+    },
+    "jobTitle": "Agency Principle",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Leadership Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 72188,
+    "email": "user72188@example.com",
+    "displayName": "Person 72188",
+    "firstName": "P72188",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 0,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 72189,
+    "email": "user72189@example.com",
+    "displayName": "Person 72189",
+    "firstName": "P72189",
+    "role": {
+      "name": "Head of People & Culture"
+    },
+    "jobTitle": "Head of People & Culture",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "People & Culture"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75225,
+    "email": "user75225@example.com",
+    "displayName": "Person 75225",
+    "firstName": "P75225",
+    "role": {
+      "name": "Senior Client Manager"
+    },
+    "jobTitle": "Senior Client Manager",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75226,
+    "email": "user75226@example.com",
+    "displayName": "Person 75226",
+    "firstName": "P75226",
+    "role": {
+      "name": "Business Director"
+    },
+    "jobTitle": "Business Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75227,
+    "email": "user75227@example.com",
+    "displayName": "Person 75227",
+    "firstName": "P75227",
+    "role": {
+      "name": "Client Manager"
+    },
+    "jobTitle": "Client Manager",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75228,
+    "email": "user75228@example.com",
+    "displayName": "Person 75228",
+    "firstName": "P75228",
+    "role": {
+      "name": "Senior Client Partner"
+    },
+    "jobTitle": "Senior Client Partner",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75230,
+    "email": "user75230@example.com",
+    "displayName": "Person 75230",
+    "firstName": "P75230",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75232,
+    "email": "user75232@example.com",
+    "displayName": "Person 75232",
+    "firstName": "P75232",
+    "role": {
+      "name": "Senior Client Partner"
+    },
+    "jobTitle": "Senior Client Partner",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75233,
+    "email": "user75233@example.com",
+    "displayName": "Person 75233",
+    "firstName": "P75233",
+    "role": {
+      "name": "Director of Client Partnerships"
+    },
+    "jobTitle": "Director of Client Partnerships",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75235,
+    "email": "user75235@example.com",
+    "displayName": "Person 75235",
+    "firstName": "P75235",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75237,
+    "email": "user75237@example.com",
+    "displayName": "Person 75237",
+    "firstName": "P75237",
+    "role": {
+      "name": "Operations Manager"
+    },
+    "jobTitle": "Operations Manager",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Operations"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75238,
+    "email": "user75238@example.com",
+    "displayName": "Person 75238",
+    "firstName": "P75238",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75239,
+    "email": "user75239@example.com",
+    "displayName": "Person 75239",
+    "firstName": "P75239",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75240,
+    "email": "user75240@example.com",
+    "displayName": "Person 75240",
+    "firstName": "P75240",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75241,
+    "email": "user75241@example.com",
+    "displayName": "Person 75241",
+    "firstName": "P75241",
+    "role": {
+      "name": "Executive Strategy Director"
+    },
+    "jobTitle": "Executive Strategy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75242,
+    "email": "user75242@example.com",
+    "displayName": "Person 75242",
+    "firstName": "P75242",
+    "role": {
+      "name": "Agency Principle"
+    },
+    "jobTitle": "Agency Principle",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Leadership Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75243,
+    "email": "user75243@example.com",
+    "displayName": "Person 75243",
+    "firstName": "P75243",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75244,
+    "email": "user75244@example.com",
+    "displayName": "Person 75244",
+    "firstName": "P75244",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75245,
+    "email": "user75245@example.com",
+    "displayName": "Person 75245",
+    "firstName": "P75245",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75246,
+    "email": "user75246@example.com",
+    "displayName": "Person 75246",
+    "firstName": "P75246",
+    "role": {
+      "name": "Head of Artwork & Production"
+    },
+    "jobTitle": "Head of Artwork & Production",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75247,
+    "email": "user75247@example.com",
+    "displayName": "Person 75247",
+    "firstName": "P75247",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75248,
+    "email": "user75248@example.com",
+    "displayName": "Person 75248",
+    "firstName": "P75248",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75249,
+    "email": "user75249@example.com",
+    "displayName": "Person 75249",
+    "firstName": "P75249",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Digital Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75250,
+    "email": "user75250@example.com",
+    "displayName": "Person 75250",
+    "firstName": "P75250",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75252,
+    "email": "user75252@example.com",
+    "displayName": "Person 75252",
+    "firstName": "P75252",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75253,
+    "email": "user75253@example.com",
+    "displayName": "Person 75253",
+    "firstName": "P75253",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75254,
+    "email": "user75254@example.com",
+    "displayName": "Person 75254",
+    "firstName": "P75254",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75255,
+    "email": "user75255@example.com",
+    "displayName": "Person 75255",
+    "firstName": "P75255",
+    "role": {
+      "name": "Digital Design Director"
+    },
+    "jobTitle": "Digital Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Digital Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75256,
+    "email": "user75256@example.com",
+    "displayName": "Person 75256",
+    "firstName": "P75256",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "3D Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75257,
+    "email": "user75257@example.com",
+    "displayName": "Person 75257",
+    "firstName": "P75257",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 0,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75258,
+    "email": "user75258@example.com",
+    "displayName": "Person 75258",
+    "firstName": "P75258",
+    "role": {
+      "name": "Senior Strategist"
+    },
+    "jobTitle": "Senior Strategist",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75259,
+    "email": "user75259@example.com",
+    "displayName": "Person 75259",
+    "firstName": "P75259",
+    "role": {
+      "name": "Senior Strategist"
+    },
+    "jobTitle": "Senior Strategist",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75260,
+    "email": "user75260@example.com",
+    "displayName": "Person 75260",
+    "firstName": "P75260",
+    "role": {
+      "name": "Senior Digital Designer"
+    },
+    "jobTitle": "Senior Digital Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75261,
+    "email": "user75261@example.com",
+    "displayName": "Person 75261",
+    "firstName": "P75261",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75262,
+    "email": "user75262@example.com",
+    "displayName": "Person 75262",
+    "firstName": "P75262",
+    "role": {
+      "name": "Senior Client Manager"
+    },
+    "jobTitle": "Senior Client Manager",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75263,
+    "email": "user75263@example.com",
+    "displayName": "Person 75263",
+    "firstName": "P75263",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75264,
+    "email": "user75264@example.com",
+    "displayName": "Person 75264",
+    "firstName": "P75264",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75312,
+    "email": "user75312@example.com",
+    "displayName": "Person 75312",
+    "firstName": "P75312",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 75313,
+    "email": "user75313@example.com",
+    "displayName": "Person 75313",
+    "firstName": "P75313",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 76323,
+    "email": "user76323@example.com",
+    "displayName": "Person 76323",
+    "firstName": "P76323",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 76674,
+    "email": "user76674@example.com",
+    "displayName": "Person 76674",
+    "firstName": "P76674",
+    "role": {
+      "name": "Senior Strategist"
+    },
+    "jobTitle": "Senior Strategist",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 87788,
+    "email": "user87788@example.com",
+    "displayName": "Person 87788",
+    "firstName": "P87788",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90267,
+    "email": "user90267@example.com",
+    "displayName": "Person 90267",
+    "firstName": "P90267",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90287,
+    "email": "user90287@example.com",
+    "displayName": "Person 90287",
+    "firstName": "P90287",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90288,
+    "email": "user90288@example.com",
+    "displayName": "Person 90288",
+    "firstName": "P90288",
+    "role": {
+      "name": "Senior Strategist"
+    },
+    "jobTitle": "Senior Strategist",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90289,
+    "email": "user90289@example.com",
+    "displayName": "Person 90289",
+    "firstName": "P90289",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90292,
+    "email": "user90292@example.com",
+    "displayName": "Person 90292",
+    "firstName": "P90292",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90293,
+    "email": "user90293@example.com",
+    "displayName": "Person 90293",
+    "firstName": "P90293",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90513,
+    "email": "user90513@example.com",
+    "displayName": "Person 90513",
+    "firstName": "P90513",
+    "role": {
+      "name": "New Business"
+    },
+    "jobTitle": "New Business",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 90631,
+    "email": "user90631@example.com",
+    "displayName": "Person 90631",
+    "firstName": "P90631",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 93336,
+    "email": "user93336@example.com",
+    "displayName": "Person 93336",
+    "firstName": "P93336",
+    "role": {
+      "name": "Client Manager"
+    },
+    "jobTitle": "Client Manager",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 93548,
+    "email": "user93548@example.com",
+    "displayName": "Person 93548",
+    "firstName": "P93548",
+    "role": {
+      "name": "Client Partner"
+    },
+    "jobTitle": "Client Partner",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 93975,
+    "email": "user93975@example.com",
+    "displayName": "Person 93975",
+    "firstName": "P93975",
+    "role": {
+      "name": "New Business"
+    },
+    "jobTitle": "New Business",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "New Business"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 93985,
+    "email": "user93985@example.com",
+    "displayName": "Person 93985",
+    "firstName": "P93985",
+    "role": {
+      "name": "Executive Strategy Director"
+    },
+    "jobTitle": "Executive Strategy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 94024,
+    "email": "user94024@example.com",
+    "displayName": "Person 94024",
+    "firstName": "P94024",
+    "role": {
+      "name": "Strategy Director"
+    },
+    "jobTitle": "Strategy Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 94140,
+    "email": "user94140@example.com",
+    "displayName": "Person 94140",
+    "firstName": "P94140",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 94970,
+    "email": "user94970@example.com",
+    "displayName": "Person 94970",
+    "firstName": "P94970",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 95765,
+    "email": "user95765@example.com",
+    "displayName": "Person 95765",
+    "firstName": "P95765",
+    "role": {
+      "name": "Senior Digital Designer"
+    },
+    "jobTitle": "Senior Digital Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Digital Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 96811,
+    "email": "user96811@example.com",
+    "displayName": "Person 96811",
+    "firstName": "P96811",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 98052,
+    "email": "user98052@example.com",
+    "displayName": "Person 98052",
+    "firstName": "P98052",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 99244,
+    "email": "user99244@example.com",
+    "displayName": "Person 99244",
+    "firstName": "P99244",
+    "role": {
+      "name": "Junior Designer"
+    },
+    "jobTitle": "Junior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 99245,
+    "email": "user99245@example.com",
+    "displayName": "Person 99245",
+    "firstName": "P99245",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 99308,
+    "email": "user99308@example.com",
+    "displayName": "Person 99308",
+    "firstName": "P99308",
+    "role": {
+      "name": "Senior Digital Designer"
+    },
+    "jobTitle": "Senior Digital Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Digital Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 105086,
+    "email": "user105086@example.com",
+    "displayName": "Person 105086",
+    "firstName": "P105086",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 107408,
+    "email": "user107408@example.com",
+    "displayName": "Person 107408",
+    "firstName": "P107408",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 107505,
+    "email": "user107505@example.com",
+    "displayName": "Person 107505",
+    "firstName": "P107505",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 107518,
+    "email": "user107518@example.com",
+    "displayName": "Person 107518",
+    "firstName": "P107518",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 109678,
+    "email": "user109678@example.com",
+    "displayName": "Person 109678",
+    "firstName": "P109678",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 109831,
+    "email": "user109831@example.com",
+    "displayName": "Person 109831",
+    "firstName": "P109831",
+    "role": {
+      "name": "Senior Client Manager"
+    },
+    "jobTitle": "Senior Client Manager",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 110341,
+    "email": "user110341@example.com",
+    "displayName": "Person 110341",
+    "firstName": "P110341",
+    "role": {
+      "name": "Digital Design Director"
+    },
+    "jobTitle": "Digital Design Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Digital Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 110553,
+    "email": "user110553@example.com",
+    "displayName": "Person 110553",
+    "firstName": "P110553",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 111485,
+    "email": "user111485@example.com",
+    "displayName": "Person 111485",
+    "firstName": "P111485",
+    "role": {
+      "name": "Junior Designer"
+    },
+    "jobTitle": "Junior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 112834,
+    "email": "user112834@example.com",
+    "displayName": "Person 112834",
+    "firstName": "P112834",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 114455,
+    "email": "user114455@example.com",
+    "displayName": "Person 114455",
+    "firstName": "P114455",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 114839,
+    "email": "user114839@example.com",
+    "displayName": "Person 114839",
+    "firstName": "P114839",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 115511,
+    "email": "user115511@example.com",
+    "displayName": "Person 115511",
+    "firstName": "P115511",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      },
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 115986,
+    "email": "user115986@example.com",
+    "displayName": "Person 115986",
+    "firstName": "P115986",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 116149,
+    "email": "user116149@example.com",
+    "displayName": "Person 116149",
+    "firstName": "P116149",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      },
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 116449,
+    "email": "user116449@example.com",
+    "displayName": "Person 116449",
+    "firstName": "P116449",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 116576,
+    "email": "user116576@example.com",
+    "displayName": "Person 116576",
+    "firstName": "P116576",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      },
+      {
+        "name": "3D Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 116837,
+    "email": "user116837@example.com",
+    "displayName": "Person 116837",
+    "firstName": "P116837",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      },
+      {
+        "name": "3D Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 119328,
+    "email": "user119328@example.com",
+    "displayName": "Person 119328",
+    "firstName": "P119328",
+    "role": {
+      "name": "New Business"
+    },
+    "jobTitle": "New Business",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "New Business"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 121624,
+    "email": "user121624@example.com",
+    "displayName": "Person 121624",
+    "firstName": "P121624",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 121632,
+    "email": "user121632@example.com",
+    "displayName": "Person 121632",
+    "firstName": "P121632",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 121872,
+    "email": "user121872@example.com",
+    "displayName": "Person 121872",
+    "firstName": "P121872",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 121938,
+    "email": "user121938@example.com",
+    "displayName": "Person 121938",
+    "firstName": "P121938",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 122155,
+    "email": "user122155@example.com",
+    "displayName": "Person 122155",
+    "firstName": "P122155",
+    "role": null,
+    "jobTitle": null,
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 122673,
+    "email": "user122673@example.com",
+    "displayName": "Person 122673",
+    "firstName": "P122673",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 122869,
+    "email": "user122869@example.com",
+    "displayName": "Person 122869",
+    "firstName": "P122869",
+    "role": {
+      "name": "Client Executive"
+    },
+    "jobTitle": "Client Executive",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 122920,
+    "email": "user122920@example.com",
+    "displayName": "Person 122920",
+    "firstName": "P122920",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 122952,
+    "email": "user122952@example.com",
+    "displayName": "Person 122952",
+    "firstName": "P122952",
+    "role": {
+      "name": "Client Partner"
+    },
+    "jobTitle": "Client Partner",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 123130,
+    "email": "user123130@example.com",
+    "displayName": "Person 123130",
+    "firstName": "P123130",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 123131,
+    "email": "user123131@example.com",
+    "displayName": "Person 123131",
+    "firstName": "P123131",
+    "role": {
+      "name": "Senior Digital Designer"
+    },
+    "jobTitle": "Senior Digital Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 123172,
+    "email": "user123172@example.com",
+    "displayName": "Person 123172",
+    "firstName": "P123172",
+    "role": {
+      "name": "Mid-Weight Designer"
+    },
+    "jobTitle": "Mid-Weight Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 123711,
+    "email": "user123711@example.com",
+    "displayName": "Person 123711",
+    "firstName": "P123711",
+    "role": {
+      "name": "Client Partner"
+    },
+    "jobTitle": "Client Partner",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 124387,
+    "email": "user124387@example.com",
+    "displayName": "Person 124387",
+    "firstName": "P124387",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 124458,
+    "email": "user124458@example.com",
+    "displayName": "Person 124458",
+    "firstName": "P124458",
+    "role": {
+      "name": "Strategy Director"
+    },
+    "jobTitle": "Strategy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 124693,
+    "email": "user124693@example.com",
+    "displayName": "Person 124693",
+    "firstName": "P124693",
+    "role": {
+      "name": "Junior Designer"
+    },
+    "jobTitle": "Junior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 124694,
+    "email": "user124694@example.com",
+    "displayName": "Person 124694",
+    "firstName": "P124694",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 125618,
+    "email": "user125618@example.com",
+    "displayName": "Person 125618",
+    "firstName": "P125618",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 125734,
+    "email": "user125734@example.com",
+    "displayName": "Person 125734",
+    "firstName": "P125734",
+    "role": {
+      "name": "Junior Designer"
+    },
+    "jobTitle": "Junior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 126130,
+    "email": "user126130@example.com",
+    "displayName": "Person 126130",
+    "firstName": "P126130",
+    "role": {
+      "name": "Strategy Director"
+    },
+    "jobTitle": "Strategy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 126632,
+    "email": "user126632@example.com",
+    "displayName": "Person 126632",
+    "firstName": "P126632",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 126820,
+    "email": "user126820@example.com",
+    "displayName": "Person 126820",
+    "firstName": "P126820",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 126966,
+    "email": "user126966@example.com",
+    "displayName": "Person 126966",
+    "firstName": "P126966",
+    "role": {
+      "name": "Strategy Director"
+    },
+    "jobTitle": "Strategy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127339,
+    "email": "user127339@example.com",
+    "displayName": "Person 127339",
+    "firstName": "P127339",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127510,
+    "email": "user127510@example.com",
+    "displayName": "Person 127510",
+    "firstName": "P127510",
+    "role": {
+      "name": "Copy Director"
+    },
+    "jobTitle": "Copy Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127511,
+    "email": "user127511@example.com",
+    "displayName": "Person 127511",
+    "firstName": "P127511",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127702,
+    "email": "user127702@example.com",
+    "displayName": "Person 127702",
+    "firstName": "P127702",
+    "role": {
+      "name": "Senior Digital Designer"
+    },
+    "jobTitle": "Senior Digital Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Digital Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127806,
+    "email": "user127806@example.com",
+    "displayName": "Person 127806",
+    "firstName": "P127806",
+    "role": {
+      "name": "Studio Manager"
+    },
+    "jobTitle": "Studio Manager",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Operations"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 127845,
+    "email": "user127845@example.com",
+    "displayName": "Person 127845",
+    "firstName": "P127845",
+    "role": {
+      "name": "New Business"
+    },
+    "jobTitle": "New Business",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "New Business"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 128280,
+    "email": "user128280@example.com",
+    "displayName": "Person 128280",
+    "firstName": "P128280",
+    "role": {
+      "name": "Executive Strategy Director"
+    },
+    "jobTitle": "Executive Strategy Director",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 128314,
+    "email": "user128314@example.com",
+    "displayName": "Person 128314",
+    "firstName": "P128314",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 128454,
+    "email": "user128454@example.com",
+    "displayName": "Person 128454",
+    "firstName": "P128454",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 128678,
+    "email": "user128678@example.com",
+    "displayName": "Person 128678",
+    "firstName": "P128678",
+    "role": {
+      "name": "Strategy Director"
+    },
+    "jobTitle": "Strategy Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 129226,
+    "email": "user129226@example.com",
+    "displayName": "Person 129226",
+    "firstName": "P129226",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 129685,
+    "email": "user129685@example.com",
+    "displayName": "Person 129685",
+    "firstName": "P129685",
+    "role": {
+      "name": "Senior Client Partner"
+    },
+    "jobTitle": "Senior Client Partner",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Client Services"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 129801,
+    "email": "user129801@example.com",
+    "displayName": "Person 129801",
+    "firstName": "P129801",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 130375,
+    "email": "user130375@example.com",
+    "displayName": "Person 130375",
+    "firstName": "P130375",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 130432,
+    "email": "user130432@example.com",
+    "displayName": "Person 130432",
+    "firstName": "P130432",
+    "role": {
+      "name": "Creative Technologist"
+    },
+    "jobTitle": "Creative Technologist",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "3D Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 130626,
+    "email": "user130626@example.com",
+    "displayName": "Person 130626",
+    "firstName": "P130626",
+    "role": {
+      "name": "Senior Creative Artworker"
+    },
+    "jobTitle": "Senior Creative Artworker",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Artwork Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 130685,
+    "email": "user130685@example.com",
+    "displayName": "Person 130685",
+    "firstName": "P130685",
+    "role": {
+      "name": "Senior Copywriter"
+    },
+    "jobTitle": "Senior Copywriter",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [
+      {
+        "name": "Copy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 132471,
+    "email": "user132471@example.com",
+    "displayName": "Person 132471",
+    "firstName": "P132471",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Freelancer"
+      },
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 132472,
+    "email": "user132472@example.com",
+    "displayName": "Person 132472",
+    "firstName": "P132472",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 132685,
+    "email": "user132685@example.com",
+    "displayName": "Person 132685",
+    "firstName": "P132685",
+    "role": {
+      "name": "Senior Strategist"
+    },
+    "jobTitle": "Senior Strategist",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 184747,
+    "email": "user184747@example.com",
+    "displayName": "Person 184747",
+    "firstName": "P184747",
+    "role": {
+      "name": "Strategist"
+    },
+    "jobTitle": "Strategist",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Strategy Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 184834,
+    "email": "user184834@example.com",
+    "displayName": "Person 184834",
+    "firstName": "P184834",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 185110,
+    "email": "user185110@example.com",
+    "displayName": "Person 185110",
+    "firstName": "P185110",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 185492,
+    "email": "user185492@example.com",
+    "displayName": "Person 185492",
+    "firstName": "P185492",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186037,
+    "email": "user186037@example.com",
+    "displayName": "Person 186037",
+    "firstName": "P186037",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186038,
+    "email": "user186038@example.com",
+    "displayName": "Person 186038",
+    "firstName": "P186038",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186039,
+    "email": "user186039@example.com",
+    "displayName": "Person 186039",
+    "firstName": "P186039",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186361,
+    "email": "user186361@example.com",
+    "displayName": "Person 186361",
+    "firstName": "P186361",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Deleted"
+    },
+    "labels": [],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186436,
+    "email": "user186436@example.com",
+    "displayName": "Person 186436",
+    "firstName": "P186436",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Hibernated"
+    },
+    "labels": [
+      {
+        "name": "3D Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186595,
+    "email": "user186595@example.com",
+    "displayName": "Person 186595",
+    "firstName": "P186595",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186596,
+    "email": "user186596@example.com",
+    "displayName": "Person 186596",
+    "firstName": "P186596",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186675,
+    "email": "user186675@example.com",
+    "displayName": "Person 186675",
+    "firstName": "P186675",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "3D Team"
+      },
+      {
+        "name": "3D"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186751,
+    "email": "user186751@example.com",
+    "displayName": "Person 186751",
+    "firstName": "P186751",
+    "role": {
+      "name": "Associate Creative Director"
+    },
+    "jobTitle": "Associate Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186752,
+    "email": "user186752@example.com",
+    "displayName": "Person 186752",
+    "firstName": "P186752",
+    "role": {
+      "name": "Design Director"
+    },
+    "jobTitle": "Design Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186866,
+    "email": "user186866@example.com",
+    "displayName": "Person 186866",
+    "firstName": "P186866",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "3D Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 186867,
+    "email": "user186867@example.com",
+    "displayName": "Person 186867",
+    "firstName": "P186867",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 187007,
+    "email": "user187007@example.com",
+    "displayName": "Person 187007",
+    "firstName": "P187007",
+    "role": {
+      "name": "3d Lead Designer"
+    },
+    "jobTitle": "3d Lead Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "3D Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 7.5,
+    "hoursWorkedTuesday": 7.5,
+    "hoursWorkedWednesday": 7.5,
+    "hoursWorkedThursday": 7.5,
+    "hoursWorkedFriday": 7.5,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 187015,
+    "email": "user187015@example.com",
+    "displayName": "Person 187015",
+    "firstName": "P187015",
+    "role": {
+      "name": "Senior Designer"
+    },
+    "jobTitle": "Senior Designer",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  },
+  {
+    "id": 187263,
+    "email": "user187263@example.com",
+    "displayName": "Person 187263",
+    "firstName": "P187263",
+    "role": {
+      "name": "Executive Creative Director"
+    },
+    "jobTitle": "Executive Creative Director",
+    "userStatus": {
+      "name": "Active"
+    },
+    "labels": [
+      {
+        "name": "Design Team"
+      },
+      {
+        "name": "Freelancer"
+      }
+    ],
+    "hoursWorkedMonday": 8,
+    "hoursWorkedTuesday": 8,
+    "hoursWorkedWednesday": 8,
+    "hoursWorkedThursday": 8,
+    "hoursWorkedFriday": 8,
+    "hoursWorkedSaturday": 0,
+    "hoursWorkedSunday": 0
+  }
+]
