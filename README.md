@@ -2,7 +2,7 @@
 
 A **Live Capacity** tab in the capacity Google Sheet showing free days per person and department for the **current month plus the next two**, pulled from Streamtime. It's laid out like the original tracker (one block per month: DAYS, NOTES, WHO), so it can be pasted straight into the finance report.
 
-It runs entirely inside the Google Sheet as Apps Script (`apps_script/Code.gs`): it refreshes itself every morning, and anyone can use **Capacity → Refresh now**. It doesn't use GitHub Actions, a service account or a GitHub token, and nobody gets failure emails. If a refresh fails, the previous figures stay in place and a red status line at the top of the tab says what went wrong.
+It runs entirely inside the Google Sheet as Apps Script (`apps_script/Code.gs`): it refreshes itself every morning, and anyone can use **Live Capacity → Refresh now**. It doesn't use GitHub Actions, a service account or a GitHub token, and nobody gets failure emails. If a refresh fails, the previous figures stay in place and a red status line at the top of the tab says what went wrong.
 
 > The earlier versions — the Monday GitHub Action here, and the Capacity Radar in `re-context-layer` (2-week horizon) — are retired for this use. The Python in `src/` is kept as the reference model and a local dry-run tool.
 
@@ -38,8 +38,8 @@ Half days count as 0.5 in DAYS, but the label only looks at *which* days are fre
    - `STREAMTIME_API_TOKEN`: Streamtime → Settings → Integrations → API
    - optional `SHEET_TAB`: tab to write to (default `Live Capacity`, created if missing)
    - optional `MONTHS`: how many months to show (default `3`)
-5. Reload the sheet. Run **Capacity → Refresh now** and approve the permissions prompt.
-6. Run **Capacity → Turn on daily auto-refresh** (about 7am daily). The trigger runs as whoever turns it on, so that should be someone who'll keep their account.
+5. Reload the sheet. Run **Live Capacity → Refresh now** and approve the permissions prompt (tick **Select all**). If the prompt errors, run it from the Apps Script editor instead: pick `refreshFromTrigger` in the function dropdown, then click **▷ Run**.
+6. Run **Live Capacity → Turn on daily auto-refresh** (about 7am daily). The trigger runs as whoever turns it on, so that should be someone who'll keep their account.
 
 ### What a refresh does
 

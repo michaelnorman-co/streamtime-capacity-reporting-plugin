@@ -8,8 +8,8 @@
  *      appsscript.json with the one next to it (Project Settings → "Show
  *      appsscript.json manifest file in editor").
  *   2. Project Settings → Script properties → add STREAMTIME_API_TOKEN.
- *   3. Reload the sheet → Capacity → Refresh now (authorise when asked).
- *   4. Capacity → Turn on daily auto-refresh.
+ *   3. Reload the sheet → Live Capacity → Refresh now (authorise when asked).
+ *   4. Live Capacity → Turn on daily auto-refresh.
  *
  * The capacity rules are a straight port of src/capacity.py + src/config.py;
  * apps_script/test/parity.test.js checks the two agree on real cached data.
@@ -116,7 +116,7 @@ const AVAILABILITY_KEY =
 
 function onOpen() {
   SpreadsheetApp.getUi()
-    .createMenu("Capacity")
+    .createMenu("Live Capacity")
     .addItem("Refresh now", "refreshCapacity")
     .addSeparator()
     .addItem("Turn on daily auto-refresh", "enableAutoRefresh")
